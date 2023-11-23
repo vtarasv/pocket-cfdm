@@ -1,0 +1,4 @@
+inference_steps: 20
+actual_steps: 20
+samples: 16
+batch_size: 16

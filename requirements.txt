@@ -1,0 +1,12 @@
+tqdm
+PyYAML
+networkx
+joblib
+
+numpy
+pandas
+scipy
+spyrmsd
+
+rai-chem==0.0.4
+e3nn==0.5.1

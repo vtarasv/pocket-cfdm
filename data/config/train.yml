@@ -1,0 +1,34 @@
+tr_sigma_max: 9.0
+tr_sigma_min: 0.1
+tr_weight: 0.33
+rot_sigma_max: 1.55
+rot_sigma_min: 0.03
+rot_weight: 0.33
+tor_sigma_max: 3.14
+tor_sigma_min: 0.0314
+tor_weight: 0.33
+
+prot_radius: 5.0
+prot_max_neighbors: 8
+
+ligand_radius: 5.0
+cross_radius: 80
+
+n_epochs: 10000
+batch_size: 2
+lr: 0.0125
+weight_decay: 0.0
+scheduler: plateau
+scheduler_patience: 30
+
+ns: 48
+nv: 10
+sigma_embed_dim: 64
+sigma_embed_scale: 10000
+distance_embed_dim: 64
+cross_distance_embed_dim: 64
+ema_rate: 0.999
+
+dropout: 0.1
+num_conv_layers: 6
+tp_batch_norm: true

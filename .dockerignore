@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Allow files and directories
+!/requirements_dev.txt
+!/cache
+!/data/config
+!/data/
+!/workdir/.model_checkpoints/
+!/utils/*py
+!/*py
