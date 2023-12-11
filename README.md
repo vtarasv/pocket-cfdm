@@ -1,3 +1,6 @@
+[ci-image]: https://github.com/vtarasv/pocket-cfdm/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/vtarasv/pocket-cfdm/actions/workflows/ci.yml
+
 <h1 align="center">
 <p> Boosting performance of generative diffusion model for molecular docking by training on artificial binding pockets</h1>
 
@@ -29,6 +32,7 @@ Consider decreasing the `batch_size` if you face GPU memory-related errors. <br 
 By default the results include only poses with acceptable quality. The `no_filter` flag allows to write all the generated poses despite their quality. <br />
 The first script run will take some time to precompute and save in the cache required data distributions.  
 ## Docker image
+[![CI Status][ci-image]][ci-url]
 1. Pull the docker image <br />
 `docker pull vtarasv/pocket-cfdm`
 2. Run the inference code using docker <br />
