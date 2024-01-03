@@ -2,11 +2,11 @@
 [ci-url]: https://github.com/vtarasv/pocket-cfdm/actions/workflows/ci.yml
 
 <h1 align="center">
-<p> Boosting performance of generative diffusion model for molecular docking by training on artificial binding pockets</h1>
+<p> Augmenting a training dataset of the generative diffusion model for molecular docking with artificial binding pockets</h1>
 
  ---
 # Article
-[https://doi.org/10.1101/2023.11.22.568238](https://doi.org/10.1101/2023.11.22.568238)
+[doi.org/10.1039/D3RA08147H](https://doi.org/10.1039/D3RA08147H)
 # Data preparation
 The model is trained to dock small molecules in a predefined binding pocket. 
 Therefore, the input PDB file is expected to include only pocket residues.
