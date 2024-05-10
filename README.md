@@ -18,7 +18,8 @@ or equivalent pocket sizes for the binding sites defined by other methods. Refer
    - [Git LFS](https://git-lfs.com/) <br />
    - [Python](https://www.python.org/) >= 3.8 <br />
    - [PyTorch](https://pytorch.org/) >= 2.0 <br />
-   - [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) <br />
+   - [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) (including `torch_scatter` and `torch_cluster`) <br />
+   - [reduce](https://github.com/rlabduke/reduce) <br />
 2. Clone the repository, navigate to the cloned folder, pull model weights <br />
 `git clone https://github.com/vtarasv/pocket-cfdm.git` <br />
 `cd pocket-cfdm/` <br />
